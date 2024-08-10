@@ -1,29 +1,23 @@
-# HEAL Reachability Analysis Isocalors
+# HEAL Reachability Analysis with Isocalors
 
 ## Introduction
-This repository contains the code and resources for conducting reachability analysis using isocalors. Reachability analysis is a method used to compute the set of states that a dynamical system can reach, starting from a set of initial states under given constraints. This project aims to provide tools and methods to perform such analysis efficiently.
-
-## Features
-- **Reachability Analysis**: Compute reachable sets for various types of systems.
-- **Isocalors Visualization**: Visualize the reachable sets using isocalors.
-- **Support for Continuous and Hybrid Systems**: Applicable to both continuous and hybrid dynamical systems.
+This repository contains the jupyter notebooks for conducting a reachability analysis under heat stress conditions using isocalors. The reachability analysis was performed within my master's thesis with the title "Heat stress in urban areas: heat-stress-avoiding reachability analysis using the example of Heidelberg" at the Institute of Geography at Heidelberg University. This work is integrated in the [HEAL research project](https://www.geog.uni-heidelberg.de/gis/heal.html), a collaboration between the [Heidelberg Institute for Geoinformation Technology (HeiGIT)](https://heigit.org/), the [GIScience Research Group Heidelberg](https://www.geog.uni-heidelberg.de/gis/index_en.html) and the [TdLab of the University of Heidelberg](https://www.geog.uni-heidelberg.de/institut/tdlab_en.html), which develops adaptation strategies to support vulnerable populations during heat waves.
 
 ## Installation
 To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/johanneshbr7/HEAL_reachability_analysis_isocalors.git
+   git clone https://github.com/johanneshbr7/HEAL_reachability_analysis_isocalors.git'''
 
-Navigate to the project directory:
-bash
-cd HEAL_reachability_analysis_isocalors
+2. **Navigate to the project directory:**
+'''bash
+cd HEAL_reachability_analysis_isocalors'''
 
-Install the required dependencies:
-bash
-pip install -r requirements.txt
+3. **Install the required dependencies:**
+After cloning the repository you should creat an environment containing the needed packages.
 
-Usage
+## Usage
 To use this project, follow these instructions:
 Run the main script:
 bash
